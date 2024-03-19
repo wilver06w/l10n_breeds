@@ -1,6 +1,9 @@
 import 'package:l10n_breeds/generated/l10n.dart';
 
 class BreedUiValues {
+  static const String appName = 'Catbreeds';
+  static const String catSplash = "assets/animations/loading/cat_splash.json";
+
   static final String makePurchase = S.current.makePurchase;
   static final String confirmationPurchase = S.current.confirmationPurchase;
   static final String saveConfirm = S.current.saveConfirm;
