@@ -1,6 +1,6 @@
 import 'package:l10n_breeds/generated/l10n.dart';
 
-class ProTiendasUiValues {
+class BreedUiValues {
   static final String makePurchase = S.current.makePurchase;
   static final String confirmationPurchase = S.current.confirmationPurchase;
   static final String saveConfirm = S.current.saveConfirm;
