@@ -2,113 +2,45 @@ import 'package:l10n_breeds/generated/l10n.dart';
 
 class BreedUiValues {
   static const String appName = 'Catbreeds';
-  static const String catSplash = "assets/animations/loading/cat_splash.json";
+  static const String catSplashAnimation =
+      "assets/animations/loading/cat_splash.json";
 
-  static final String makePurchase = S.current.makePurchase;
-  static final String confirmationPurchase = S.current.confirmationPurchase;
-  static final String saveConfirm = S.current.saveConfirm;
-  static final String cardHolderName = S.current.cardHolderName;
-  static const String mmAA = 'MM/AA';
-  static const String cVV = 'CVV';
-  static final String cardNumber = S.current.cardNumber;
-  static final String efecty = S.current.efecty;
-  static final String bankTransferWithPse = S.current.bankTransferWithPse;
-  static final String newDebitCard = S.current.newDebitCard;
-  static final String newCreditCard = S.current.newCreditCard;
-  static final String paymentMethod = S.current.paymentMethod;
-  static final String howWantPay = S.current.howWantPay;
-  static final String theDataAnotherPersonCompany =
-      S.current.theDataAnotherPersonCompany;
-  static final String theSameShippingInformation =
-      S.current.theSameShippingInformation;
-  static final String whatInformationShouldAppearInvoice =
-      S.current.whatInformationShouldAppearInvoice;
-  static final String billingInformation = S.current.billingInformation;
-  static final String saveShippingAddress = S.current.saveShippingAddress;
-  static final String neighborhood = S.current.neighborhood;
-  static final String addressBuildingApartment =
-      S.current.addressBuildingApartment;
-  static final String city = S.current.city;
-  static final String department = S.current.department;
-  static final String number = S.current.number;
-  static final String type = S.current.type;
-  static final String editData = S.current.editData;
-  static final String yourData = S.current.yourData;
-  static final String viewMapChooseAnotherCollectionPoint =
-      S.current.viewMapChooseAnotherCollectionPoint;
-  static final String shippingAddress = S.current.shippingAddress;
-  static final String officeHours = S.current.officeHours;
-  static final String addressOffice = S.current.addressOffice;
-  static final String pickUpDeliveryPoint = S.current.pickUpDeliveryPoint;
-  static final String sendHome = S.current.sendHome;
-  static final String addShippingAddress = S.current.addShippingAddress;
-  static final String delivery = S.current.delivery;
-  static final String chooseDeliveryMethod = S.current.chooseDeliveryMethod;
-  static final String continueShopping = S.current.continueShopping;
-  static final String total = S.current.total;
-  static final String shipment = S.current.shipment;
-  static final String products = S.current.products;
-  static final String shoppingCart = S.current.shoppingCart;
-  static final String myProfile = S.current.myProfile;
-  static final String notifications = S.current.notifications;
+  static const String textFooter = "Pragma / Keep moving";
+  static const String version = "Version";
+
+  static String imageUrlConcatec(String idImage) {
+    return 'https://cdn2.thecatapi.com/images/$idImage.jpg';
+  }
+
+  static final String origin = S.current.origin;
+  static final String temperament = S.current.temperament;
+  static final String breedEspecifications = S.current.breedEspecifications;
+  static final String metric = S.current.metric;
+  static final String imperial = S.current.imperial;
+  static final String weight = S.current.weight;
+  static final String adaptability = S.current.adaptability;
+  static final String countryCode = S.current.countryCode;
+  static final String lifeSpan = S.current.lifeSpan;
+  static final String altNames = S.current.altNames;
   static final String favorites = S.current.favorites;
-  static final String start = S.current.start;
-  static final String mayInterest = S.current.mayInterest;
-  static final String leaveOpinion = S.current.leaveOpinion;
-  static final String opinions = S.current.opinions;
-  static final String productDescription = S.current.productDescription;
-  static final String productSummary = S.current.productSummary;
+  static final String socialNeeds = S.current.socialNeeds;
+  static final String affectionLevel = S.current.affectionLevel;
   static final String characteristics = S.current.characteristics;
-  static final String buyNow = S.current.buyNow;
-  static final String addCart = S.current.addCart;
-  static final String searchProtiendas = S.current.searchProtiendas;
-  static final String didForgetPassword = S.current.didForgetPassword;
-  static final String enterEmailUsername = S.current.enterEmailUsername;
-  static final String iNeedHelpEnter = S.current.iNeedHelpEnter;
-  static final String hello = S.current.hello;
-  static final String iAmNotRegistered = S.current.iAmNotRegistered;
-  static final String wantRegister = S.current.wantRegister;
+  static final String childFriendly = S.current.childFriendly;
+  static final String dogFriendly = S.current.dogFriendly;
+  static final String searchCatbreeds = S.current.searchCatbreeds;
   static final String theNew = S.current.theNew;
-  static final String productBy = S.current.productBy;
-  static final String cellPhone = S.current.cellPhone;
-  static final String numberPhoneNoValid = S.current.numberPhoneNoValid;
-  static final String next = S.current.next;
-  static final String email = S.current.email;
-  static final String welcome = S.current.welcome;
-  static final String save = S.current.save;
-  static final String completeTheData = S.current.completeTheData;
-  static final String verifyEmail = S.current.verifyEmail;
-  static final String password = S.current.password;
-  static final String register = S.current.register;
-  static final String userRegisterSuccesful = S.current.userRegisterSuccesful;
-  static final String nowYouCanLogIn = S.current.nowYouCanLogIn;
-  static final String sigIn = S.current.sigIn;
-  static final String name = S.current.name;
-  static final String lastName = S.current.lastName;
-  static final String sendFree = S.current.sendFree;
-  static final String createAccount = S.current.createAccount;
-  static final String continu = S.current.continu;
-  static final String logAccount = S.current.logAccount;
-  static final String almostThere = S.current.almostThere;
-  static final String completeDetailsCreateAccount =
-      S.current.completeDetailsCreateAccount;
-  static final String buyEnterAccount = S.current.buyEnterAccount;
-  static final String loginWith = S.current.loginWith;
 
+  static final String energyLevel = S.current.energyLevel;
+  static final String grooming = S.current.grooming;
+  static final String healthIssues = S.current.healthIssues;
+  static final String strangerFriendly = S.current.strangerFriendly;
+  static final String vocalisation = S.current.vocalisation;
+  static final String shareForFriend = S.current.shareForFriend;
   static String weHaveAErrorContactSuport(Object fieldName) {
     return S.current.weHaveAErrorContactSuport(fieldName);
   }
 
-  static String productsUnits(int fieldName) {
-    return '${S.current.products} ($fieldName)';
-  }
-
-  static const List<String> addressList = [
-    'Calle',
-    'Carrera',
-    'Diagonal',
-    'Avenida',
-  ];
   static const String icNotificationSelected =
       'assets/svg/ic_notification_selected.svg';
   static const String icFavoriteSelected =
@@ -175,9 +107,6 @@ class BreedUiValues {
   static const String seeMore = 'Ver mas';
   static const String searchArchetype = 'Buscar Arquetipos';
 
-  static const String textFooter =
-      "Sii Colombia · Bogotá - Av. Cll 40a #13 - 09 Edificio UGI";
-  static const String version = "Version";
   static const String loadingAnimations =
       "assets/animations/loading/loading.json";
   static const String onRequired = 'Es requerido.';
