@@ -23,5 +23,7 @@
   "strangerFriendly": "Extraña amigable",
   "shareForFriend": "Compartir a mis amigos",
   "vocalisation": "Vocalización",
+  "notFavorite": "No tienes favoritos",
+  "addFavoriteHere": "Agrega tus favoritos, y los encontras mas facil aqui.",
   "weHaveAErrorContactSuport": "Error {code} \nSi el error persiste, contacta a soporte"
 }

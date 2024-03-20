@@ -290,6 +290,26 @@ class S {
     );
   }
 
+  /// `No tienes favoritos`
+  String get notFavorite {
+    return Intl.message(
+      'No tienes favoritos',
+      name: 'notFavorite',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Agrega tus favoritos, y los encontras mas facil aqui.`
+  String get addFavoriteHere {
+    return Intl.message(
+      'Agrega tus favoritos, y los encontras mas facil aqui.',
+      name: 'addFavoriteHere',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Error {code} \nSi el error persiste, contacta a soporte`
   String weHaveAErrorContactSuport(Object code) {
     return Intl.message(

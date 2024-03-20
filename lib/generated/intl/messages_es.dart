@@ -26,6 +26,8 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "adaptability": MessageLookupByLibrary.simpleMessage("Adaptabilidad"),
+        "addFavoriteHere": MessageLookupByLibrary.simpleMessage(
+            "Agrega tus favoritos, y los encontras mas facil aqui."),
         "affectionLevel":
             MessageLookupByLibrary.simpleMessage("nivel de afecto"),
         "altNames":
@@ -46,6 +48,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "imperial": MessageLookupByLibrary.simpleMessage("imperial"),
         "lifeSpan": MessageLookupByLibrary.simpleMessage("Vida media"),
         "metric": MessageLookupByLibrary.simpleMessage("metric"),
+        "notFavorite":
+            MessageLookupByLibrary.simpleMessage("No tienes favoritos"),
         "origin": MessageLookupByLibrary.simpleMessage("Origen"),
         "searchCatbreeds":
             MessageLookupByLibrary.simpleMessage("Buscar en Catbreeds"),
