@@ -12,7 +12,8 @@ class BreedUiValues {
     return 'https://cdn2.thecatapi.com/images/$idImage.jpg';
   }
 
-  static const String imageCat = 'https://media.istockphoto.com/id/1300144006/es/vector/silueta-de-gato-negro-sobre-fondo-blanco.jpg?s=1024x1024&w=is&k=20&c=4y08atiFgaV1L_aLwz1t73VB9mGXalFJWusjgMwdJSQ=';
+  static const String imageCat =
+      'https://media.istockphoto.com/id/1300144006/es/vector/silueta-de-gato-negro-sobre-fondo-blanco.jpg?s=1024x1024&w=is&k=20&c=4y08atiFgaV1L_aLwz1t73VB9mGXalFJWusjgMwdJSQ=';
   static const String bannerTest = 'assets/image/banner_test.png';
   static final String notFavorite = S.current.notFavorite;
   static final String addFavoriteHere = S.current.addFavoriteHere;
@@ -45,12 +46,10 @@ class BreedUiValues {
     return S.current.weHaveAErrorContactSuport(fieldName);
   }
 
-  static const String icHomeSelected = 'assets/svg/ic_home_selected.svg';
-  static const String icHeartNoSelected = 'assets/svg/ic_heart_no_selected.svg';
   static const String iconHeartSvg = 'assets/svg/heart.svg';
+  static const String icHeartNoSelected = 'assets/svg/ic_heart_no_selected.svg';
   static const String starEmpty = 'assets/svg/star_empty.svg';
   static const String starFilled = 'assets/svg/star_filled.svg';
-  static const String icDelete = 'assets/svg/ic_delete.svg';
 
   static const String loadingAnimations =
       "assets/animations/loading/loading.json";
