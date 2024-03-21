@@ -15,6 +15,7 @@ class BreedUiValues {
   static const String imageCat =
       'https://media.istockphoto.com/id/1300144006/es/vector/silueta-de-gato-negro-sobre-fondo-blanco.jpg?s=1024x1024&w=is&k=20&c=4y08atiFgaV1L_aLwz1t73VB9mGXalFJWusjgMwdJSQ=';
   static const String bannerTest = 'assets/image/banner_test.png';
+  static final String noConection = S.current.noConection;
   static final String notFavorite = S.current.notFavorite;
   static final String addFavoriteHere = S.current.addFavoriteHere;
   static final String origin = S.current.origin;

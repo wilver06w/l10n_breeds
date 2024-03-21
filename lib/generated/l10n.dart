@@ -60,6 +60,16 @@ class S {
     );
   }
 
+  /// `Sin conexión`
+  String get noConection {
+    return Intl.message(
+      'Sin conexión',
+      name: 'noConection',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Adaptabilidad`
   String get adaptability {
     return Intl.message(
