@@ -18,17 +18,20 @@ class S {
   static S? _current;
 
   static S get current {
-    assert(_current != null,
-        'No instance of S was loaded. Try to initialize the S delegate before accessing S.current.');
+    assert(
+      _current != null,
+      'No instance of S was loaded. Try to initialize the S delegate before accessing S.current.',
+    );
     return _current!;
   }
 
   static const AppLocalizationDelegate delegate = AppLocalizationDelegate();
 
   static Future<S> load(Locale locale) {
-    final name = (locale.countryCode?.isEmpty ?? false)
-        ? locale.languageCode
-        : locale.toString();
+    final name =
+        (locale.countryCode?.isEmpty ?? false)
+            ? locale.languageCode
+            : locale.toString();
     final localeName = Intl.canonicalizedLocale(name);
     return initializeMessages(localeName).then((_) {
       Intl.defaultLocale = localeName;
@@ -41,8 +44,10 @@ class S {
 
   static S of(BuildContext context) {
     final instance = S.maybeOf(context);
-    assert(instance != null,
-        'No instance of S present in the widget tree. Did you add S.delegate in localizationsDelegates?');
+    assert(
+      instance != null,
+      'No instance of S present in the widget tree. Did you add S.delegate in localizationsDelegates?',
+    );
     return instance!;
   }
 
@@ -92,32 +97,17 @@ class S {
 
   /// `Peso`
   String get weight {
-    return Intl.message(
-      'Peso',
-      name: 'weight',
-      desc: '',
-      args: [],
-    );
+    return Intl.message('Peso', name: 'weight', desc: '', args: []);
   }
 
   /// `imperial`
   String get imperial {
-    return Intl.message(
-      'imperial',
-      name: 'imperial',
-      desc: '',
-      args: [],
-    );
+    return Intl.message('imperial', name: 'imperial', desc: '', args: []);
   }
 
   /// `metric`
   String get metric {
-    return Intl.message(
-      'metric',
-      name: 'metric',
-      desc: '',
-      args: [],
-    );
+    return Intl.message('metric', name: 'metric', desc: '', args: []);
   }
 
   /// `Especificaciones de la raza`
@@ -142,32 +132,17 @@ class S {
 
   /// `Origen`
   String get origin {
-    return Intl.message(
-      'Origen',
-      name: 'origin',
-      desc: '',
-      args: [],
-    );
+    return Intl.message('Origen', name: 'origin', desc: '', args: []);
   }
 
   /// `Codigo País`
   String get countryCode {
-    return Intl.message(
-      'Codigo País',
-      name: 'countryCode',
-      desc: '',
-      args: [],
-    );
+    return Intl.message('Codigo País', name: 'countryCode', desc: '', args: []);
   }
 
   /// `Vida media`
   String get lifeSpan {
-    return Intl.message(
-      'Vida media',
-      name: 'lifeSpan',
-      desc: '',
-      args: [],
-    );
+    return Intl.message('Vida media', name: 'lifeSpan', desc: '', args: []);
   }
 
   /// `Nombres alternativos`
@@ -222,12 +197,7 @@ class S {
 
   /// `Lo Nuevo`
   String get theNew {
-    return Intl.message(
-      'Lo Nuevo',
-      name: 'theNew',
-      desc: '',
-      args: [],
-    );
+    return Intl.message('Lo Nuevo', name: 'theNew', desc: '', args: []);
   }
 
   /// `Características`
@@ -242,22 +212,12 @@ class S {
 
   /// `Favoritos`
   String get favorites {
-    return Intl.message(
-      'Favoritos',
-      name: 'favorites',
-      desc: '',
-      args: [],
-    );
+    return Intl.message('Favoritos', name: 'favorites', desc: '', args: []);
   }
 
   /// `Aseo`
   String get grooming {
-    return Intl.message(
-      'Aseo',
-      name: 'grooming',
-      desc: '',
-      args: [],
-    );
+    return Intl.message('Aseo', name: 'grooming', desc: '', args: []);
   }
 
   /// `Problemas de salud`
@@ -335,9 +295,7 @@ class AppLocalizationDelegate extends LocalizationsDelegate<S> {
   const AppLocalizationDelegate();
 
   List<Locale> get supportedLocales {
-    return const <Locale>[
-      Locale.fromSubtags(languageCode: 'es'),
-    ];
+    return const <Locale>[Locale.fromSubtags(languageCode: 'es')];
   }
 
   @override
